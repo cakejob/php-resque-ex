@@ -11,7 +11,7 @@
 		}
 	],
 	"require": {
-		"php": ">=7.4",
+		"php": ">=7.3",
 		"ext-pcntl": "*",
 		"monolog/monolog": ">=1.2.0",
 		"kamisama/monolog-init": ">=0.1.1"
