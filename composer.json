@@ -8,9 +8,6 @@
 	"authors": [
 		{
 			"name": "Wan Chen"
-		},
-		{
-			"name": "Chris Boulton"
 		}
 	],
 	"require": {
@@ -29,7 +26,7 @@
 	},
 	"support": {
 		"issues": "https://github.com/kamisama/php-resque-ex/issues",
-		"source": "https://github.com/kamisama/php-resque-ex"
+		"source": "https://github.com/cakejob/php-resque-ex"
 	},
 	"bin": [
 		"bin/resque"
