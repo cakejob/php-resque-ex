@@ -1,23 +1,20 @@
 {
-	"name": "kamisama/php-resque-ex",
+	"name": "cakejob/php-resque-ex",
 	"type": "library",
 	"description": "Redis backed library for creating background jobs and processing them later. PHP port based on resque for Ruby.",
 	"keywords": ["job", "background", "redis", "resque", "queue", "php"],
-	"homepage": "http://www.github.com/kamisama/php-resque-ex/",
+	"homepage": "https://github.com/cakejob/php-resque-ex/",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Wan Chen",
-			"email": "kami@kamisama.me",
-			"homepage": "http://www.kamisama.me"
+			"name": "Wan Chen"
 		},
 		{
-			"name": "Chris Boulton",
-			"email": "chris@bigcommerce.com"
+			"name": "Chris Boulton"
 		}
 	],
 	"require": {
-		"php": ">=5.3.0",
+		"php": ">=7.4",
 		"ext-pcntl": "*",
 		"monolog/monolog": ">=1.2.0",
 		"kamisama/monolog-init": ">=0.1.1"
@@ -31,7 +28,6 @@
 		"fresque/fresque": "A command line tool to manage your workers"
 	},
 	"support": {
-		"email": "kami@kamisama.me",
 		"issues": "https://github.com/kamisama/php-resque-ex/issues",
 		"source": "https://github.com/kamisama/php-resque-ex"
 	},
