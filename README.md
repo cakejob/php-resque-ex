@@ -59,7 +59,7 @@ Fresque is shipped by default to manage your workers. See [Fresque Documentation
 
 Clone the git repo
 
-	$ git clone git://github.com/kamisama/php-resque-ex.git
+	$ git clone https://github.com/cakejob/php-resque-ex.git
 
  `cd` into the folder you just cloned
 
@@ -97,10 +97,9 @@ If one of these two environement variable is missing, it will default to *Rotati
 
 ## Requirements ##
 
-* PHP 5.3+
+* PHP 7.3+
 * Redis 2.2+
 
 ## Contributors ##
 
 * [chrisboulton](https://github.com/chrisboulton/php-resque) for the original port
-* kamisama
