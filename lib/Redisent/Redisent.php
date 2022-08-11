@@ -101,7 +101,11 @@ class Redisent {
                 $size = substr($reply, 1);
                 do {
                     $block_size = ($size - $read) > 1024 ? 1024 : ($size - $read);
-                    $response .= fread($this->__sock, $block_size);
+
+                    if ($block_size > 0) {
+                        $response .= fread($this->__sock, $block_size);
+                    }
+
                     $read += $block_size;
                 } while ($read < $size);
                 fread($this->__sock, 2); /* discard crlf */
