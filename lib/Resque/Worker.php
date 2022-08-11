@@ -669,7 +669,11 @@ class Resque_Worker
     public function getLogger($workerId)
     {
         $settings = json_decode(Resque::redis()->hget('workerLogger', (string)$workerId));
-        $logger = new MonologInit\MonologInit($settings[0], $settings[1]);
+        $settingArg0 = $settings[0] ?? null;
+        $settingArg1 = $settings[1] ?? null;
+
+        $logger = new MonologInit\MonologInit($settingArg0, $settingArg1);
+
         return $logger->getInstance();
     }
 
